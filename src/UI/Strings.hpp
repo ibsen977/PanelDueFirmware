@@ -174,7 +174,7 @@ const StringTable LanguageTables[] =
 		"Baby step",
 		"Resume",
 		"Cancel",
-		"Print again",
+		"Laser again",
 		"Simulate again",
 		"Set",
 
@@ -199,7 +199,7 @@ const StringTable LanguageTables[] =
 		"Confirm file delete",
 		"Are you sure?",
 		"Touch the spot",
-		"Move head",
+		"Move laser head",
 		"Extrusion amount (mm)",
 		"Speed (mm/s)",
 		"Extrude",
@@ -232,7 +232,7 @@ const StringTable LanguageTables[] =
 		{
 			"Connecting",
 			"Idle",
-			"Printing",
+			"Laser in progress",
 			"Halted",
 			"Starting up",
 			"Paused",
