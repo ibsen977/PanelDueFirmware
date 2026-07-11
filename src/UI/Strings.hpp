@@ -16,7 +16,7 @@
 #undef value
 #include "UI/ColourSchemes.hpp"
 #include "UI/MessageLog.hpp"
-#include "ObjectModel/PrinterStatus.hpp"
+#include "ObjectModel/LasererStatus.hpp"
 #include "FlashData.hpp"
 #include "Configuration.hpp"
 
@@ -148,7 +148,7 @@ const StringTable LanguageTables[] =
 
 		// Main page strings
 		"Control",
-		"Print",
+		"Laser",
 		"Status",
 		"Console",
 		"Setup",
@@ -200,10 +200,10 @@ const StringTable LanguageTables[] =
 		"Are you sure?",
 		"Touch the spot",
 		"Move laser head",
-		"Extrusion amount (mm)",
+		"Laser Intensity (%)",
 		"Speed (mm/s)",
-		"Extrude",
-		"Retract",
+		"Laser On",
+		"Laser Off",
 		"Baby stepping",
 		"Current Z offset: ",
 		"Message",
@@ -224,8 +224,8 @@ const StringTable LanguageTables[] =
 		"Filament needed: ",
 		"Sliced by: ",
 		"Date: ",
-		"Estimated print time: ",
-		"Simulated print time: ",
+		"Estimated Laser time: ",
+		"Simulated Laser time: ",
 		"Simulate",
 
 		// Printer status strings
@@ -718,7 +718,7 @@ const StringTable LanguageTables[] =
 		"Baby step",
 		"Pokračovat",
 		"Zrušit",
-		"Print again",
+		"Laser again",
 		"Simulate again",
 		"OK",
 
@@ -965,7 +965,7 @@ const StringTable LanguageTables[] =
 
 		// Main page strings
 		"Controle",
-		"Print",
+		"Laser",
 		"Status",
 		"Console",
 		"Instellingen",
