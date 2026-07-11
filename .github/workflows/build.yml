@@ -1,0 +1,19 @@
+name: Build PanelDue Firmware
+
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install ARM GCC Compiler
+        uses: gcc-arm-embedded/actions-arm-gcc@v1
+        with:
+          release: '10-2020-q4'
+
+      - name: Build Firmware
+        run: |
+          make CONFIG=v3-7.0
