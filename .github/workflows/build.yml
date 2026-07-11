@@ -27,4 +27,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PanelDueFirmware-Custom
-          path: "./*.bin"
+          path: "**/*.bin"
