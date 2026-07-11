@@ -9,6 +9,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install Linux Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lib32ncurses5 lib32z1
+
       - name: Install ARM GCC Compiler
         uses: gcc-arm-embedded/actions-arm-gcc@v1
         with:
