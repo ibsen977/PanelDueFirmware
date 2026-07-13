@@ -232,7 +232,8 @@ const StringTable LanguageTables[] =
 		{
 			"Connecting",
 			"Idle",
-			"Laser in progress",
+			"Laser in progress\xA0\xA0\xA0",
+
 			"Halted",
 			"Starting up",
 			"Paused",
